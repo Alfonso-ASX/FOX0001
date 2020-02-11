@@ -1,3 +1,13 @@
+.sidenav
+{
+  z-index: 1001!important;
+}
+
+.collectionASX 
+{
+  border: none!important;
+}
+
 .collectionASX .collection-item
 {
   background-color: rgba(0, 0, 0, 0.7)!important;
