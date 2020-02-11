@@ -1,0 +1,206 @@
+.collectionASX .collection-item
+{
+  background-color: rgba(0, 0, 0, 0.7)!important;
+  color:#fff
+}
+
+.collection-item p
+{
+  color:#fff;
+  font-size: 12px;
+}
+.title
+{
+  color:#fff!important;
+}
+
+.secondary-content
+{
+  color:rgba(255, 255, 255, 0.7)!important;
+  background-color: rgba(255, 255, 255, 0.0)!important;
+}
+body
+{
+  background-color: black;
+  background-image: url('../img/fondo.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  
+}
+.img-ico
+{
+  width: 50px;
+  height: 50px;
+margin-right: 1rem;  
+
+}
+
+.card-image
+{
+  height: 200px!important;
+  width: 100%;
+  position:absolute;
+  background: #ddd;
+  overflow: hidden;
+}
+.card-image img
+{
+  position:relative;
+    vertical-align:middle;
+    text-align:center;
+
+}
+
+
+h1
+{
+  font-size: 18px!important;
+  padding: 10px;
+  margin: 0px!important;
+}
+
+h2
+{    
+  font-size: 17px!important;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 0px!important;
+}
+
+#cargando
+{
+   width: 64px;
+   height: 64px;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   margin-top: -32px;
+   margin-left: -32px;
+   z-index: 1000;
+}
+#navegacion
+{
+    background: #323334;
+    height: 45px;
+    overflow: hidden;
+
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 990;
+}
+
+#buscador
+{
+    background: #fff;
+    height: 45px;
+    overflow: hidden;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 45px;
+    z-index: 990;
+    text-align: center;
+}
+#buscador input
+{
+  border: solid 1px #aaa;
+  border-radius: 30px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 40px;
+  height: 40px;
+
+
+
+}
+#buscador .input-field
+{
+  margin: 0px;
+}
+#cuerpo
+{
+    margin: 45px 0px auto auto;
+}
+#navegacion img
+{
+    height: 35px;
+
+
+
+}
+#navegacion div
+{
+    padding: 10px 5px;
+}
+#navegacion span
+{
+    padding: 10px;
+    font-size: 16px;
+    color:#fff;
+    top: 1px;
+}
+#btnMenu
+{
+    padding: 10px;
+
+    color:#fff;
+}
+
+.user-view
+{
+    text-align: center;
+    box-shadow: inset 0px -20px 80px 0px;
+}
+
+.user-view img
+{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.left
+{
+    padding: 5px 0px!important;
+}
+
+
+.inferior
+{
+    color: #000;
+    background: #fff;
+    position:fixed; /*El div será ubicado con relación a la pantalla*/
+    left:0px; /*A la derecha deje un espacio de 0px*/
+    right:0px; /*A la izquierda deje un espacio de 0px*/
+    bottom:0px; /*Abajo deje un espacio de 0px*/
+    height:50px; /*alto del div*/
+    z-index:990;
+}
+
+
+.collapsible-body
+{
+  padding: 5px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
