@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="mx.bolsainmobiliaria.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="mx.sonoraGrill" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Sonora Grill</name>
     <description>
         Software a medida
@@ -7,6 +7,11 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         ASX
     </author>
+
+    <preference name="android-targetSdkVersion" value="28" />
+    <preference name="Fullscreen" value="true" />
+
+
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -23,6 +28,7 @@
         <icon src="res/icon/android/xhdpi.png" density="xhdpi" />
     </platform>
     <platform name="ios">
+        <icon src="icon.png" />
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
