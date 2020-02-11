@@ -8,7 +8,9 @@
         ASX
     </author>
 
-    <preference name="android-targetSdkVersion" value="28" />
+
+    <preference name="phonegap-version" value="cli-9.0.0" />
+
     <preference name="Fullscreen" value="true" />
 
 
@@ -29,6 +31,7 @@
     </platform>
     <platform name="ios">
         <icon src="icon.png" width="1024" height="1024" />
+        
 
 
         <icon src="res/ios/icon-60@3x.png" width="180" height="180" />
